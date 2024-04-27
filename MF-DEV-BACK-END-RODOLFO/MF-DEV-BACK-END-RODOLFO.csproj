@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>MF_DEV_BACK_END_RODOLFO</RootNamespace>
     <UserSecretsId>7c972fe9-7978-4748-b1c5-aa3bac661e94</UserSecretsId>
