@@ -14,8 +14,10 @@ namespace MF_DEV_BACK_END_RODOLFO.Models
         [Required(ErrorMessage = "Obrigatório informar a Placa do veiculo!")]
         public string Placa { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o Ano de Fabricação do Veiculo!")]
+        [Display(Name = "Ano de Fabricação")]
         public int AnoFabricacao { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o Ano do modelo do Veiculo!")]
+        [Display(Name = "Ano do Modelo")]
         public int AnoModelo { get; set; }
     }
 }
