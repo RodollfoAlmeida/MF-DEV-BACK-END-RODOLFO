@@ -19,5 +19,7 @@ namespace MF_DEV_BACK_END_RODOLFO.Models
         [Required(ErrorMessage = "Obrigatório informar o Ano do modelo do Veiculo!")]
         [Display(Name = "Ano do Modelo")]
         public int AnoModelo { get; set; }
+
+        public ICollection<Consumo> Consumos { get; set; }
     }
 }
